@@ -1,0 +1,15 @@
+ion-content {
+    text-align: center;
+}
+@media (max-width: 575px ) {
+    .cont{
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media (max-width: 768px ) {
+    .cont{
+        display: flex;
+        flex-direction: row;
+    }
+}

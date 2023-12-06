@@ -1,0 +1,21 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Ejercicio 3: Ocultar Elementos en Pantallas Pequeñas</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Minami Hollowness</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <img src="assets/img/img1.jpg" alt="img1">
+    </ion-card-content>
+    <ion-button [routerLink]="['/cuatro']" expand="block" shape="round">
+      Ejercicio 4
+    </ion-button>
+    <ion-button [routerLink]="['/dos']" expand="block" fill="clear" shape="round">
+      Ejercicio 2
+    </ion-button>
+  </ion-card>
+</ion-content>

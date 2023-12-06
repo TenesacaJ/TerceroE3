@@ -1,0 +1,9 @@
+ion-card{
+    text-align: center;
+}
+@media (max-width: 500px) {
+    /* Estilos para pantallas con ancho máximo de 600px */
+    img{
+        display: none;
+    }
+}
